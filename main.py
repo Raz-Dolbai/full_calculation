@@ -3,8 +3,8 @@ import pytest
 
 endpoint = 'https://partner.agentapp.ru/v1/agreements/1b6bffb6-566b-4b7e-a86c-e714bc1855ee/results/{}'
 
-username = 'qa@qa.qa'
-password = '111'
+username = "enter you login"
+password = "enter your password"
 
 def check_status_code(response, status_code=200):
     assert response.status_code == status_code, f'Ожидаемый ответ сервера - {status_code} не совпадает с фактическим {response.status_code}'
